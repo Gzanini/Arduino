@@ -1,0 +1,28 @@
+# .gitignore
+
+# Arquivos e pastas específicos do Arduino
+*.o
+*.a
+*.hex
+*.elf
+
+# Pasta de compilação Arduino
+/build/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Configurações do Visual Studio Code
+.vscode/
+
+
+# Configurações específicas do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.iws.ipr
+*.ipr
+*.log
+*.lock
+out/
